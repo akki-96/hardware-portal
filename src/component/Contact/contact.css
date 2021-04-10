@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background: #edf2fb;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box{
+    background:#fff;
+    display: flex;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+   
+   
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;  
+}
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    border-top-right-radius: 150px;
+    background:#023e8a;
+    color:#fff
+   
+}
+
+h1{
+    margin-bottom:10px;
+    counter:#03071e;
+}
+
+.container p{
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+
+}
+
+input{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b1;
+    font-weight: 500;
+
+}
+
+button{
+    background :#023e8a;
+    width: 110px;
+    border:none;
+    outline: none;
+    color: #fff;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+    cursor: pointer;
+    margin-left: 40%;
+}
+
+button:hover{
+    background-color: green;
+}
+
+.contact-left h3{
+    color:#1c00b5;
+    font-weight: 1000;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+
+.contact-right h3{
+    font-weight: 1000;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td {
+    padding-top: 20px;
+}
+
+.contact-right .contact-logo{
+    height: 120px;
+    width: 120px;
+    
+    margin-top: 60px;
+    margin-left: 30%;
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #48cae4;    
+}
+
+ .footer img{
+    width: 55px;
+    height: 55px;
+    margin-left: 20px;
+    margin-top: 8px;
+    
+}
+
+.div2 p{
+    margin-top: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.div2 p a{
+    
+    text-decoration: none;
+    
+}
+
+.div3 p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.div3 .fbIcon{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    color:#1455e0 
+}
+.div3 .instaIcon{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin: 0 5px;
+    color: #e4405f;
+   
+}
+.div3 .twiterIcon{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin: 0 5px;
+    color:#0788bb
+   
+}
+.div3 .youIcon{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    color: rgb(235, 35, 35);
+}
+
+.div1 .div12 p {
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 8px;
+    text-align: center;
+}
+
+tr td .emailIcon{
+    color:#00ffaa;
+}
+tr td .phoneIcon{
+    color:goldenrod;
+}
+tr td .addressIcon{
+    color:grey;
+}
+ 

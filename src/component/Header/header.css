@@ -1,0 +1,10 @@
+.active_class{
+    color:rgb(255, 0, 221);
+    border-bottom: 2px solid rgb(255, 0, 234);
+  }
+.pos{
+    height:140px;
+    width: 180px;
+    background-image: url("logo.png");
+    margin-left: 10px; 
+}
